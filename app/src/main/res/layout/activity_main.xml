@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/firstFragment"
+        android:text="First Fragment"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:id="@+id/secondFragment"
+        android:text="Second Fragment"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:text="Send Data to Second Fragment"
+        android:id="@+id/btnSecondFragSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <TextView
+        android:id="@+id/txtFromFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100px"></TextView>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>
